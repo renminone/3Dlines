@@ -1,0 +1,12 @@
+1- extract Glew and Glut 
+2- creat a c++ Empty project
+3- Right Click on the solution then properties
+4- open c\c++ --> General --> Additional include Directories --> put there 2 include 
+5- open linker --> Input --> write freeglut.lib & glew32.lib 
+6- open linker --> Genearal --> Additional include Directories --> put there 2 lib
+7- Right Click on the solution then Open Folder in file Explorer
+8- copy the 2 dll file from Glew and Glut in the project and in c\windows\system32
+9-include #include <Windows.h>
+          #include <GL\glew.h>
+          #include <GL\freeglut.h>
+          #include <iostream>
