@@ -1,0 +1,6 @@
+<line>
+  <start x="1.0" y="3.0" z="2.0"/>
+  <length value="10.0"/>
+  <direction value="XZ"/>
+  <color r="1.0" g="1.0" b="0.0"/>
+</line>
